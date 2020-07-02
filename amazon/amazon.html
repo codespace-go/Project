@@ -1,76 +1,77 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- CSS   -->
-    <link rel="stylesheet" href="amazon.css">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Amazon</title>
-  </head>
-  <body>
-    <div id="header">
-      <div id="head-title" class="header-comp">
-        <h2 >amazon</h2>
-        <h5>Deliver to:</h5>
-      </div>
-      <div id="head-search-nav" class="header-comp">
-        <input id="search-bar" type="text-box" placeholder="  Search">
-        <div class="nav-link">
-          <a class="nav-link" href="https://www.amazon.com">Home</a>
-          <a class="nav-link" href="https://www.amazon.com">Gift Ideas</a>
-          <a class="nav-link" href="https://www.amazon.com">Best Sellers</a>
-          <a class="nav-link" href="https://www.amazon.com">New Releases</a>
-          <a class="nav-link" href="https://www.amazon.com">Whole Foods</a>
-          <a class="nav-link" href="https://www.amazon.com">Coupons</a>
-          <a class="nav-link" href="https://www.amazon.com">Amazon Basics</a>
-        </div>
-      </div>
-      <div id="sign-in" class="header-comp">
-         <h5>Hello, Sign in</h5> 
-         <select id="dropdown">
-          <option value="volvo">Volvo</option>
-          <option value="saab">Saab</option>
-          <option value="mercedes">Mercedes</option>
-          <option value="audi">Audi</option>
-        </select>
-        <div id="nav">
+  <!-- CSS   -->
+  <link rel="stylesheet" href="amazon.css">
+  <script type="text/javascript" src="./amazon.js"></script>
 
-        </div>
+  <title>Amazon</title>
+</head>
+
+<body>
+  <div id="header">
+    <div id="head-title" class="header-comp">
+      <h2>amazon</h2>
+      <h5>Deliver to:</h5>
+    </div>
+    <div id="head-search-nav" class="header-comp">
+      <input id="search-bar" type="text-box" placeholder="  Search">
+      <div class="nav-link">
+        <a class="nav-link" href="https://www.amazon.com">Home</a>
+        <a class="nav-link" href="https://www.amazon.com">Gift Ideas</a>
+        <a class="nav-link" href="https://www.amazon.com">Best Sellers</a>
+        <a class="nav-link" href="https://www.amazon.com">New Releases</a>
+        <a class="nav-link" href="https://www.amazon.com">Whole Foods</a>
+        <a class="nav-link" href="https://www.amazon.com">Coupons</a>
+        <a class="nav-link" href="https://www.amazon.com">Amazon Basics</a>
       </div>
     </div>
+    <div id="sign-in" class="header-comp">
 
-    <div id="tiles">
-      <div id="tile1" class="tile">
-        <img class="image" src="/Users/coding/Desktop/Project/amazon/images/image-1.jpg">
-      </div>
-      <div id="tile2" class="tile">
-        <img class="image" src="/Users/coding/Desktop/Project/amazon/images/image-2.jpg">
-      </div>
-      <div id="tile3" class="tile">
-        <img class="image" src="/Users/coding/Desktop/Project/amazon/images/image-3.jpg">
-      </div>
-      <div id="tile4" class="tile">
-        <img class="image" src="/Users/coding/Desktop/Project/amazon/images/image-4.jpg">
+      <h5>Hello, Sign in</h5>
+      <select id="app" onclick="ecom()">
+        <option>Select</option>
+      </select>
+      <div id="nav">
       </div>
     </div>
+  </div>
 
-    <div>
-      <div id="tile1" class="tile">
-        <img class="image" src="/Users/coding/Desktop/Project/amazon/images/image-5.jpg">
-      </div>
-      <div id="tile2" class="tile">
-        <img class="image" src="/Users/coding/Desktop/Project/amazon/images/image-6.jpg">
-      </div>
-      <div id="tile3" class="tile">
-        <img class="image" src="/Users/coding/Desktop/Project/amazon/images/image-7.jpg">
-      </div>
-      <div id="tile4" class="tile">
-        <img class="image" src="/Users/coding/Desktop/Project/amazon/images/image-8.jpg">
-      </div>
+  <div id="tiles">
+    <div id="tile1" class="tile">
+      <img class="image" src="./images/image-1.jpg">
     </div>
+    <div id="tile2" class="tile">
+      <img class="image" src="./images/image-2.jpg">
+    </div>
+    <div id="tile3" class="tile">
+      <img class="image" src="./images/image-3.jpg">
+    </div>
+    <div id="tile4" class="tile">
+      <img class="image" src="./images/image-4.jpg">
+    </div>
+  </div>
 
-  </body>
+  <div>
+    <div id="tile1" class="tile">
+      <img class="image" src="./images/image-5.jpg">
+    </div>
+    <div id="tile2" class="tile">
+      <img class="image" src="./images/image-6.jpg">
+    </div>
+    <div id="tile3" class="tile">
+      <img class="image" src="./images/image-7.jpg">
+    </div>
+    <div id="tile4" class="tile">
+      <img class="image" src="./images/image-8.jpg">
+    </div>
+  </div>
+
+</body>
+
 </html>
