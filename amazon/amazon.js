@@ -1973,5 +1973,4 @@ const ecom = () => {
   document.getElementById("app").innerHTML = filtered;
   console.log(filtered)
 }
-
 ecom()
