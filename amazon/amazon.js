@@ -1968,6 +1968,7 @@ var data = [{
   "imageUrl": "https://dummyimage.com/353x132"
 }]
 
+
 const ecom = () => {
   var filtered = data.filter(i => i.categoryId == 7).map(a => "<option>" + a.name + "</option>").join(",").replace(",", "")
   document.getElementById("app").innerHTML = filtered;
